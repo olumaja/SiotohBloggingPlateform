@@ -1,0 +1,14 @@
+﻿@if(ViewBag.Title == "Login")
+{
+    <div class="d-flex justify-content-between align-items-center m-4">
+        <a asp-area="Customer" asp-action="Index" asp-controller="Home">Home</a>
+        <a asp-area="Customer" asp-action="Register" asp-controller="Account">Register</a>
+    </div>
+}
+else
+{
+    <div class="d-flex justify-content-between align-items-center m-4">
+        <a asp-area="Customer" asp-action="Index" asp-controller="Home">Home</a>
+        <a asp-area="Customer" asp-action="Login" asp-controller="Account">Login</a>
+    </div>
+}
